@@ -22,7 +22,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -48,20 +47,21 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#user-demand">User demand</a></li>
+        <li><a href="#system-introduction">System introduction</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#detection-algorithm">Detection Algorithm</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#fatigue-detection">Fatigue Detection</a></li>
+        <li><a href="#yolov5-dangerous-detection">Yolov5 dangerous detection</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#wechat-mini-program-development">Wechat mini program development</a></li>
+    <li><a href="#stm32">STM32</a></li>
+    <li><a href="#raspberry-pi">Raspberry Pi</a></li>
+    <li><a href="#wearable-intelligent-devices">Wearable intelligent devices</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -145,7 +145,7 @@ This methodology leverages Euler angles to analyze the driver's head orientation
 
 
 ### Yolov5 Dangerous detection
-#### Dataset Description
+
 Our goal is to make datasets containing cigarettes (smoking) and mobile phones (phone calls). 
 We took the pictures by crawling, and screened 4856 pictures of smoking
 ![1692517714292](image/README/1692517714292.png)
@@ -174,7 +174,7 @@ We chose docker to deploy the virtual environment and installed docker on the Ra
 2. Communicates with STM32 serial port
 The raspberry pie is connected with the main control microcontroller stm32 through a line, and the uart serial port communication protocol is used for information interaction
 
-## wearable intelligent devices
+## Wearable intelligent devices
 In order to realize other needs of users for smart wearable devices: measure vital signs such as heart rate, portable, beautiful, and able to interact with servers and host computers. Due to the huge market of smart bracelets and many mature products, considering time and cost, we realize related functions through smart bracelet product selection and secondary development
 
 <!-- CONTACT -->
@@ -199,32 +199,15 @@ Feng Qingtian - feng_qingtian@u.nus.edu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/fqt111/Intelligent-safe-driving-detection-system.svg?style=for-the-badge
+[contributors-url]: https://github.com/fqt111/Intelligent-safe-driving-detection-system/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fqt111/Intelligent-safe-driving-detection-system.svg?style=for-the-badge
+[forks-url]: https://github.com/fqt111/Intelligent-safe-driving-detection-system/network/members
+[stars-shield]: https://img.shields.io/github/stars/fqt111/Intelligent-safe-driving-detection-system.svg?style=for-the-badge
+[stars-url]: https://github.com/fqt111/Intelligent-safe-driving-detection-system/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fqt111/Intelligent-safe-driving-detection-system.svg?style=for-the-badge
+[issues-url]: https://github.com/fqt111/Intelligent-safe-driving-detection-system/issues
+[license-shield]: https://img.shields.io/github/license/fqt111/Intelligent-safe-driving-detection-system.svg?style=for-the-badge
+[license-url]: https://github.com/fqt111/Intelligent-safe-driving-detection-system/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[linkedin-url]: https://www.linkedin.com/in/qingtian-feng-4b1055288/
